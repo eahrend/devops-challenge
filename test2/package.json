@@ -1,0 +1,20 @@
+{
+  "name": "devops-challenge",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha"
+  },
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "express": "^4.13.0",
+    "morgan": "^1.6.0",
+    "shortid": "^2.2.4"
+  },
+  "devDependencies": {
+    "chai": "^3.0.0",
+    "mocha": "^2.2.5",
+    "supertest": "^1.1.0"
+  }
+}
